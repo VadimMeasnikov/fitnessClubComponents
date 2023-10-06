@@ -1,0 +1,60 @@
+.main-slogan {
+    height: 800px;
+    // background-image: url(../img/background1.png);
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    display: grid;
+    place-items: center;
+
+    .slogan-container {
+        width: 60%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .slogan-heading {
+            font-family: Poppins;
+            font-size: 60px;
+            font-weight: 700;
+            line-height: 90px;
+            color: white;
+        }
+
+        .sloganContent {
+            font-family: Open Sans;
+            font-size: 17px;
+            font-weight: 600;
+            line-height: 23px;
+            color: white;
+            width: 45%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+
+        .letIsDoButton {
+            margin-top: 30px;
+            width: 237px;
+            height: 68px;
+            background: rgba(228, 48, 113, 1);
+            border-radius: 44px;
+            border: none;
+
+            /* text style */
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 37px;
+            letter-spacing: 0px;
+            text-align: center;
+            color: white;
+        }
+
+        .letIsDoButton:hover {
+            cursor: pointer;
+        }
+    }
+}

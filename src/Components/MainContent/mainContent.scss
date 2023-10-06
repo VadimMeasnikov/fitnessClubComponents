@@ -1,0 +1,72 @@
+.main-content {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .image-content {
+        width: 40%;
+
+        .frontImage {
+            position: relative;
+            top: 100px;
+            right: 150px;
+        }
+    }
+
+    .info-content {
+        width: 30%;
+        .info-content_heading {
+            font-family: Poppins;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 60px;
+            color: rgba(228, 48, 113, 1);
+        }
+    
+        .info {
+            margin-top: 15px;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 37px;
+            color: rgba(66, 66, 66, 1);
+            width: 540px;
+    
+            display: flex;
+            justify-content: end;
+        }
+        .viewFAQButton {
+            margin-top: 15px;
+            width: 237px;
+            height: 68px;
+            border: 2px solid rgba(228, 48, 113, 1);
+            background: white;
+            border-radius: 44px;
+        
+        
+            /* text style */
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 37px;
+            color: rgba(228, 48, 113, 1);
+        }
+        
+        .viewFAQButton:hover {
+            cursor: pointer;
+        }
+    }
+
+   
+
+}
+
+
+
+
+
+

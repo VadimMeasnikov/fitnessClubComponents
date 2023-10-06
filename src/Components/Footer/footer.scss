@@ -1,0 +1,118 @@
+footer {
+    background: rgba(11, 13, 23, 1);
+    .footer-container {
+        padding-top: 100px;
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+    }
+    
+  
+    
+    .footer-links {
+      display: flex;
+      justify-content: space-between;
+    
+    }
+    
+    .media {
+      width: 30%;
+    
+    }
+    
+    .footer-heading {
+      width: 10%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    .logoText1 {
+      color: white;
+      font-family: Poppins;
+      font-size: 26px;
+      font-weight: 800;
+      line-height: 28px;
+    }
+    
+    .logoText2 {
+      color: rgba(228, 48, 113, 1);
+      font-family: Poppins;
+      font-size: 26px;
+      font-weight: 800;
+      line-height: 28px;
+    }
+    
+    .footer-info {
+      padding-top: 15px;
+      font-family: Manrope;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      color: rgba(217, 219, 225, 1);
+    }
+    
+    .links {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .links-heading {
+      font-family: Manrope;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 30px;
+      color: rgba(255, 255, 255, 1);
+    
+    }
+    
+    .footer-link {
+      font-family: Manrope;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      color: rgb(192, 192, 192);
+    
+    
+    }
+    .footer-link:hover{
+      text-decoration: underline;
+    }
+    
+    .footerLow {
+      padding-top: 35px;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      padding-bottom: 80px;
+    }
+    
+    .licenseText {
+      font-family: Manrope;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      color: rgba(217, 219, 225, 1);
+    }
+    
+    .footer-main-links {
+      width: 40%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    
+    .footerMainLink {
+      font-family: Manrope;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      color: rgba(217, 219, 225, 1);
+      
+    }
+    .footerMainLink:hover{
+      text-decoration: underline;
+    }
